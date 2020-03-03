@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    height: 500px;
+}
+header nav {
+    height: 100px;
+    background: #fff;
+    box-shadow: none;
+}
+
+nav .brand-logo {
+    height: 100px;
+    left: 15%;
+}
+
+nav .brand-logo img {
+    width: 100px;
+    background-color: #1a6d65;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+header nav ul {
+    height: 100px;
+}
+
+header ul a {
+color: gray;
+}
+
+.input-field.input-container {
+    height: 100%;
+    float: none;
+    display: flex;
+    margin: auto;
+}
+
+.input-field > #search {
+margin-top: 25px;
+}
+
+.input-container i {
+margin-top: 40px;
+margin-right: 15px;
+}
+
+.header-main-pic {
+  width: 100%;
+  height: 400px;
+  background-image: url("../src/img/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+  background-size: cover;  
+  background-repeat: no-repeat;
+  position: center;
+}
+
+.activator {
+    width: 150px; 
+    height: 125px;
+    background-size: cover;
+}
+
+.btn-small {
+    border-radius: 5px;
+}
+
+footer{
+    background: #26a69a;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer .copy {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+footer .social a {
+    display: inline-block;
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+footer .social a:hover {
+color:#1a6d65;
+}
+
+/* POST-PAGE */

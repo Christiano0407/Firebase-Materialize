@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
+
+header {
+    height: 500px;
+}
+
+header nav {
+    height: 100px;
+    background: #fff;
+    box-shadow: none;
+}
+
+nav .brand-logo {
+    height: 100px;
+    left: 15%;
+}
+
+nav .brand-logo img {
+    width: 100px;
+    margin-top: 10px;
+    background-color: #1a6d65;
+    box-shadow: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+header nav ul {
+    height: 100px;
+}
+header ul a {
+    color: gray;
+}
+.header-main-pic {
+    width: 100%;
+    height: 400px;
+    background-image: url("../src/img/play.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+    
+}
+
+.center-align {
+font-family: hwt-geometric-shopworn-inked, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 30px;
+}
+
+
+.card-panel.icon{
+display: flex;
+
+} 
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+
+.text {
+    display: flex;
+  /*   justify-content: center;
+    align-self: center; */
+}
+.flow-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.post-pic {
+    width: 100%;
+    height: 400px;
+    background-image: url("../src/img/annie-spratt-jFtBa6aEJqk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background: #26a69a;
+    padding: 50px 0;
+    text-align: center;
+}  
+
+footer .copy {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+
+
